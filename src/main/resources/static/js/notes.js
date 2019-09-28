@@ -8,7 +8,7 @@ function edit(Element) {
 
 function load() {
     $.ajax({
-        url: '/notes/'+page,
+        url: '/notes/',
         type: 'get',
         success: function (data) {
             var table_body = '<table border="1">';
